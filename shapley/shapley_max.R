@@ -5,6 +5,9 @@ source(paste(file_name,'/COA_construct.R',sep=""))
 source(paste(file_name,'/algorithm_on_maximin.R',sep=""))
 source(paste(file_name,'/functions.R',sep=""))
 
+library(ggplot2)
+library(gridExtra)
+
 set.seed(1810029)
 loop_times=10
 m=16
