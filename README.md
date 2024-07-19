@@ -1,7 +1,10 @@
 # MCOA-results
 Code of MCOA. Some MCOAs.
 
-A simple introduction to files and folders.
+Simple introduction to files and folders.
+
+Packages "ggplot2", "gridExtra", "glmnet" are used.
+Sources install_packages.R to check whether they are installed. If not, the program will automatically install the packages.
 
 algorithm_on_maximin.R, COA_construct.R, functions.R are three core files.
 -------------------------------------------------------------------
